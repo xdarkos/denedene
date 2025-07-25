@@ -2527,67 +2527,79 @@ body.dark-mode .fa-sun {
             <h2 id="contact-heading">İletişim</h2>
             <p>Bizimle iletişime geçmek için aşağıdaki formu doldurabilir veya iletişim bilgilerimizi kullanabilirsiniz</p>
         </div>
-                
+        
         <div class="contact-container">
             <div class="contact-info">
-                        <article class="info-card">
-                            <div class="info-icon">
-                                <i class="fas fa-map-marker-alt" aria-hidden="true"></i>
-                            </div>
-                            <div class="info-content">
-                                <h3>Adres</h3>
-                                <a href="https://maps.google.com" class="contact-link" target="_blank">Örnek Mahallesi, Demo Sokak No:123, İstanbul</a>
-                            </div>
-                        </article>
-                        
-                        <article class="info-card">
-                            <div class="info-icon">
-                                <i class="fas fa-phone-alt" aria-hidden="true"></i>
-                            </div>
-                            <div class="info-content">
-                                <h3>Telefon</h3>
-                                <a href="tel:+905345769457" class="contact-link">+90 534 576 94 57</a>
-                            </div>
-                        </article>
-                        
-                        <article class="info-card whatsapp-card">
-                            <div class="info-icon">
-                                <i class="fab fa-whatsapp" aria-hidden="true"></i>
-                            </div>
-                            <div class="info-content">
-                                <h3>WhatsApp</h3>
-                                <div class="whatsapp-container">
-                                    <a href="https://wa.me/905345769457" class="whatsapp-link" target="_blank">
-                                        <span class="phone-number">+90 534 576 94 57</span>
-                                        <span class="whatsapp-action">
-                                            <i class="fab fa-whatsapp" aria-hidden="true"></i> Mesaj Gönder
-                                        </span>
-                                    </a>
-                                </div>
-                            </div>
-                        </article>
-                        
-                        <article class="info-card">
-                            <div class="info-icon">
-                                <i class="fas fa-envelope" aria-hidden="true"></i>
-                            </div>
-                            <div class="info-content">
-                                <h3>E-posta</h3>
-                                <a href="mailto:istanbulalevcatering@hotmail.com" class="contact-link">istanbulalevcatering@hotmail.com</a>
-                            </div>
-                        </article>
-                        
-                        <article class="working-hours">
-                            <h3>Çalışma Saatleri</h3>
-                            <p><strong>Pazartesi - Cuma:</strong> 08:00 - 17:00</p>
-                            <p><strong>Cumartesi:</strong> 09:00 - 15:00</p>
-                            <p><strong>Pazar:</strong> Kapalı</p>
-                        </article>
+                <article class="info-card">
+                    <div class="info-icon">
+                        <i class="fas fa-map-marker-alt" aria-hidden="true"></i>
                     </div>
+                    <div class="info-content">
+                        <h3>Adres</h3>
+                        <a href="https://maps.google.com" class="contact-link" target="_blank">Örnek Mahallesi, Demo Sokak No:123, İstanbul</a>
+                    </div>
+                </article>
+                
+                <article class="info-card">
+                    <div class="info-icon">
+                        <i class="fas fa-phone-alt" aria-hidden="true"></i>
+                    </div>
+                    <div class="info-content">
+                        <h3>Telefon</h3>
+                        <a href="tel:+905345769457" class="contact-link">+90 534 576 94 57</a>
+                    </div>
+                </article>
+                
+                <article class="info-card whatsapp-card">
+                    <div class="info-icon">
+                        <i class="fab fa-whatsapp" aria-hidden="true"></i>
+                    </div>
+                    <div class="info-content">
+                        <h3>WhatsApp</h3>
+                        <div class="whatsapp-container">
+                            <a href="https://wa.me/905345769457" class="whatsapp-link" target="_blank">
+                                <span class="phone-number">+90 534 576 94 57</span>
+                                <span class="whatsapp-action">
+                                    <i class="fab fa-whatsapp" aria-hidden="true"></i> Mesaj Gönder
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                </article>
+                
+                <article class="info-card">
+                    <div class="info-icon">
+                        <i class="fas fa-envelope" aria-hidden="true"></i>
+                    </div>
+                    <div class="info-content">
+                        <h3>E-posta</h3>
+                        <a href="mailto:istanbulalevcatering@hotmail.com" class="contact-link">istanbulalevcatering@hotmail.com</a>
+                    </div>
+                </article>
+                
+                <article class="working-hours">
+                    <h3>Çalışma Saatleri</h3>
+                    <p><strong>Pazartesi - Cuma:</strong> 08:00 - 17:00</p>
+                    <p><strong>Cumartesi:</strong> 09:00 - 15:00</p>
+                    <p><strong>Pazar:</strong> Kapalı</p>
+                </article>
+            </div>
+            
+            <div class="contact-form-container">
+                <div class="contact-form-header">
+                    <h3>Bize Ulaşın</h3>
+                    <p>Her türlü soru, görüş ve önerileriniz için formu doldurabilirsiniz.</p>
+                </div>
+                
+                <form id="contactForm" action="https://formspree.io/f/xpwldwbl" method="POST">
+                    <input type="hidden" name="_language" value="tr">
+                    <input type="hidden" name="_subject" value="İstanbul Alev Catering - Yeni İletişim Formu">
+                    <input type="hidden" name="_next" value="https://ornek.com/tesekkurler.html">
                     
                     <div class="form-group">
                         <i class="fas fa-user" aria-hidden="true"></i>
-                        <input type="text" class="form-control" id="name" name="name" placeholder="Adınız Soyadınız" required>
+                        <input type="text" class="form-control" id="name" name="name" placeholder="Adınız Soyadınız" required
+                               aria-label="Adınız Soyadınız" minlength="2" maxlength="50">
                     </div>
                     
                     <div class="form-group">
@@ -2596,22 +2608,36 @@ body.dark-mode .fa-sun {
                                placeholder="Telefon (5__) ___ __ __" 
                                pattern="[\d\s\(\)\-]{10,}" 
                                title="10 haneli telefon numarası giriniz"
+                               aria-label="Telefon Numaranız"
                                required>
                     </div>
                     
                     <div class="form-group">
                         <i class="fas fa-envelope" aria-hidden="true"></i>
-                        <input type="email" class="form-control" id="email" name="email" placeholder="E-posta Adresiniz" required>
+                        <input type="email" class="form-control" id="email" name="email" 
+                               placeholder="E-posta Adresiniz" 
+                               aria-label="E-posta Adresiniz"
+                               required>
                     </div>
                     
                     <div class="form-group">
                         <i class="fas fa-edit" aria-hidden="true"></i>
-                        <textarea class="form-control" id="message" name="message" placeholder="Mesajınız" required></textarea>
+                        <textarea class="form-control" id="message" name="message" 
+                                  placeholder="Mesajınız" 
+                                  aria-label="Mesajınız"
+                                  minlength="10" maxlength="500"
+                                  required></textarea>
                     </div>
                     
-                    <button type="submit" class="submit-btn">
+                    <div class="form-group" style="display: none;" aria-hidden="true">
+                        <input type="text" name="_gotcha" tabindex="-1">
+                    </div>
+                    
+                    <button type="submit" class="submit-btn" id="submitBtn" aria-label="Formu Gönder">
                         <i class="fas fa-paper-plane" aria-hidden="true"></i> Gönder
                     </button>
+                    
+                    <div id="formStatus" style="margin-top: 15px; text-align: center;"></div>
                 </form>
             </div>
         </div>
@@ -2707,7 +2733,7 @@ body.dark-mode .fa-sun {
 <script>
 /**
  * İstanbul Alev Catering - Optimize Edilmiş JavaScript (Mobil Uyumlu)
- * Formspree entegrasyonu ile güncellenmiş versiyon
+ * Tüm fonksiyonlar modern ES6+ standartlarında yazılmıştır
  */
 
 // 1. DEĞİŞKENLER VE TEMEL FONKSİYONLAR
@@ -2877,12 +2903,16 @@ const setupBackToTop = () => {
     handleScroll(); // Sayfa yüklendiğinde kontrol et
 };
 
-// 6. İLETİŞİM FORMU (Formspree entegrasyonlu)
+// 6. İLETİŞİM FORMU (Formspree ile uyumlu hale getirildi)
 const setupContactForm = () => {
-    if (!DOM_ELEMENTS.contactForm) return;
+    const contactForm = document.getElementById('contactForm');
+    if (!contactForm) return;
+    
+    const submitBtn = document.getElementById('submitBtn');
+    const formStatus = document.getElementById('formStatus');
     
     // Telefon numarası formatlama
-    const phoneInput = DOM_ELEMENTS.contactForm.querySelector('#phone');
+    const phoneInput = contactForm.querySelector('#phone');
     if (phoneInput) {
         phoneInput.addEventListener('input', (e) => {
             let value = e.target.value.replace(/\D/g, '');
@@ -2898,18 +2928,21 @@ const setupContactForm = () => {
     }
     
     // Form gönderimi
-    DOM_ELEMENTS.contactForm.addEventListener('submit', async (e) => {
+    contactForm.addEventListener('submit', async (e) => {
         e.preventDefault();
-        const submitBtn = DOM_ELEMENTS.contactForm.querySelector('button[type="submit"]');
-        const formData = new FormData(DOM_ELEMENTS.contactForm);
         
         try {
-            // Butonu devre dışı bırak
+            // Butonu devre dışı bırak ve yükleme durumunu göster
             submitBtn.disabled = true;
             submitBtn.innerHTML = '<i class="fas fa-spinner fa-spin"></i> Gönderiliyor...';
+            formStatus.textContent = '';
+            formStatus.style.color = '';
             
-            // Formspree API'sine gönderim
-            const response = await fetch('https://formspree.io/f/xpwldwbl', {
+            // Form verilerini topla
+            const formData = new FormData(contactForm);
+            
+            // Formspree'ye gönder
+            const response = await fetch(contactForm.action, {
                 method: 'POST',
                 body: formData,
                 headers: {
@@ -2919,83 +2952,28 @@ const setupContactForm = () => {
             
             if (response.ok) {
                 // Başarılı gönderim
-                const successMessage = document.createElement('div');
-                successMessage.className = 'form-success';
-                successMessage.innerHTML = `
-                    <i class="fas fa-check-circle"></i>
-                    <span>Mesajınız başarıyla gönderildi! En kısa sürede sizinle iletişime geçeceğiz.</span>
-                `;
-                DOM_ELEMENTS.contactForm.reset();
-                DOM_ELEMENTS.contactForm.parentNode.insertBefore(successMessage, DOM_ELEMENTS.contactForm.nextSibling);
-                
-                // Başarı mesajını 5 saniye sonra kaldır
-                setTimeout(() => {
-                    successMessage.style.opacity = '0';
-                    setTimeout(() => successMessage.remove(), 500);
-                }, 5000);
+                formStatus.textContent = 'Mesajınız başarıyla gönderildi! En kısa sürede sizinle iletişime geçeceğiz.';
+                formStatus.style.color = 'green';
+                contactForm.reset();
             } else {
-                throw new Error('Form gönderilemedi');
+                const errorData = await response.json();
+                throw new Error(errorData.error || 'Form gönderilemedi');
             }
         } catch (error) {
             console.error('Form error:', error);
-            
-            // Hata mesajı göster
-            const errorMessage = document.createElement('div');
-            errorMessage.className = 'form-error';
-            errorMessage.innerHTML = `
-                <i class="fas fa-exclamation-circle"></i>
-                <span>Bir hata oluştu. Lütfen daha sonra tekrar deneyin veya telefonla iletişime geçin.</span>
-            `;
-            DOM_ELEMENTS.contactForm.parentNode.insertBefore(errorMessage, DOM_ELEMENTS.contactForm.nextSibling);
-            
-            // Hata mesajını 5 saniye sonra kaldır
-            setTimeout(() => {
-                errorMessage.style.opacity = '0';
-                setTimeout(() => errorMessage.remove(), 500);
-            }, 5000);
+            formStatus.textContent = 'Bir hata oluştu: ' + error.message + '. Lütfen daha sonra tekrar deneyin veya telefonla ulaşın.';
+            formStatus.style.color = 'var(--primary-color)';
         } finally {
             // Butonu tekrar aktif hale getir
             submitBtn.disabled = false;
             submitBtn.innerHTML = '<i class="fas fa-paper-plane" aria-hidden="true"></i> Gönder';
+            
+            // 5 saniye sonra durum mesajını temizle
+            setTimeout(() => {
+                formStatus.textContent = '';
+            }, 5000);
         }
     });
-    
-    // CSS for success/error messages
-    const style = document.createElement('style');
-    style.textContent = `
-        .form-success, .form-error {
-            padding: 15px;
-            margin: 20px 0;
-            border-radius: var(--radius-md);
-            display: flex;
-            align-items: center;
-            transition: opacity 0.3s ease;
-            animation: fadeInUp 0.5s ease;
-        }
-        
-        .form-success {
-            background-color: rgba(46, 204, 113, 0.1);
-            border-left: 4px solid #2ecc71;
-            color: #27ae60;
-        }
-        
-        .form-error {
-            background-color: rgba(231, 76, 60, 0.1);
-            border-left: 4px solid #e74c3c;
-            color: #c0392b;
-        }
-        
-        .form-success i, .form-error i {
-            margin-right: 10px;
-            font-size: 20px;
-        }
-        
-        @keyframes fadeInUp {
-            from { opacity: 0; transform: translateY(20px); }
-            to { opacity: 1; transform: translateY(0); }
-        }
-    `;
-    document.head.appendChild(style);
 };
 
 // 7. SAYAÇ ANİMASYONLARI
