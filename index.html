@@ -2197,14 +2197,14 @@ body.dark-mode .fa-sun {
     <!-- Header -->
 <header class="header" id="mainHeader">
     <div class="header-container">
-        <a href="catering1.html" class="logo" aria-label="İstanbul Alev Catering Ana Sayfa">
+        <a href="index.html" class="logo" aria-label="İstanbul Alev Catering Ana Sayfa">
             <i class="fas fa-utensils logo-icon" aria-hidden="true"></i>
             İstanbul Alev Catering
         </a>
         
         <nav aria-label="Ana Navigasyon">
             <ul class="nav-links">
-                <li><a href="catering1.html"><i class="fas fa-home" aria-hidden="true"></i> Ana Sayfa</a></li>
+                <li><a href="index.html"><i class="fas fa-home"></i> Ana Sayfa</a></li>
                 <li class="services-dropdown">
                     <a href="#services" aria-haspopup="true" aria-expanded="false"><i class="fas fa-concierge-bell" aria-hidden="true"></i> Hizmetler <i class="fas fa-chevron-down" aria-hidden="true"></i></a>
                     <div class="services-dropdown-content" aria-label="Hizmet Alt Menüsü">
@@ -2216,7 +2216,7 @@ body.dark-mode .fa-sun {
                         <a href="santiyelere-catering.html"><i class="fas fa-hard-hat" aria-hidden="true"></i> Şantiyelere Catering</a>
                     </div>
                 </li>
-                <li><a href="#pricing"><i class="fas fa-book-open" aria-hidden="true"></i> Menü</a></li>
+                <li><a href="ozel-menu.html"><i class="fas fa-book-open" aria-hidden="true"></i> Menü</a></li>
                 <li><a href="#contact"><i class="fas fa-phone-alt" aria-hidden="true"></i> İletişim</a></li>
 				<li class="active"><a href="hizmet-bolgelerimiz.html"><i class="fas fa-map-marked-alt" aria-hidden="true"></i> Hizmet Bölgelerimiz</a></li>
             </ul>
@@ -2232,10 +2232,10 @@ body.dark-mode .fa-sun {
 <div class="mobile-menu" id="mobileMenu">
   <button class="mobile-menu-close" aria-label="Menüyü kapat"><i class="fas fa-times"></i></button>
   <div class="mobile-menu-logo">
-    <a href="catering1.html" class="logo"><i class="fas fa-utensils logo-icon"></i> İstanbul Alev Catering</a>
+    <a href="index.html" class="logo"><i class="fas fa-utensils logo-icon"></i> İstanbul Alev Catering</a>
   </div>
   <ul class="mobile-menu-links">
-    <li><a href="catering1.html"><i class="fas fa-home"></i> Ana Sayfa</a></li>
+    <li><a href="index.html"><i class="fas fa-home"></i> Ana Sayfa</a></li>
     
     <!-- Hizmetler dropdown -->
     <li class="services-dropdown">
@@ -2520,16 +2520,16 @@ body.dark-mode .fa-sun {
             </div>
         </section>
 
-        <!-- Contact Section -->
-        <section id="contact" class="contact-section section" aria-labelledby="contact-heading">
-            <div class="container">
-                <div class="section-title">
-                    <h2 id="contact-heading">İletişim</h2>
-                    <p>Bizimle iletişime geçmek için aşağıdaki formu doldurabilir veya iletişim bilgilerimizi kullanabilirsiniz</p>
-                </div>
+<!-- Contact Section -->
+<section id="contact" class="contact-section section" aria-labelledby="contact-heading">
+    <div class="container">
+        <div class="section-title">
+            <h2 id="contact-heading">İletişim</h2>
+            <p>Bizimle iletişime geçmek için aşağıdaki formu doldurabilir veya iletişim bilgilerimizi kullanabilirsiniz</p>
+        </div>
                 
-                <div class="contact-container">
-                    <div class="contact-info">
+        <div class="contact-container">
+            <div class="contact-info">
                         <article class="info-card">
                             <div class="info-icon">
                                 <i class="fas fa-map-marker-alt" aria-hidden="true"></i>
@@ -2585,45 +2585,38 @@ body.dark-mode .fa-sun {
                         </article>
                     </div>
                     
-                    <div class="contact-form-container">
-                        <div class="contact-form-header">
-                            <h3>Bize Ulaşın</h3>
-                            <p>Her türlü soru, görüş ve önerileriniz için formu doldurabilirsiniz.</p>
-                        </div>
-                        
-                        <form id="contactForm" method="post">
-                            <div class="form-group">
-                                <i class="fas fa-user" aria-hidden="true"></i>
-                                <input type="text" class="form-control" id="name" name="name" placeholder="Adınız Soyadınız" required>
-                            </div>
-                            
-<div class="form-group">
-    <i class="fas fa-phone-alt" aria-hidden="true"></i>
-    <input type="tel" class="form-control" id="phone" name="phone" 
-           placeholder="Telefon (5__) ___ __ __" 
-           pattern="[\d\s\(\)\-]{10,}" 
-           title="10 haneli telefon numarası giriniz"
-           required>
-</div>
-                            
-                            <div class="form-group">
-                                <i class="fas fa-envelope" aria-hidden="true"></i>
-                                <input type="email" class="form-control" id="email" name="email" placeholder="E-posta Adresiniz" required>
-                            </div>
-                            
-                            <div class="form-group">
-                                <i class="fas fa-edit" aria-hidden="true"></i>
-                                <textarea class="form-control" id="message" name="message" placeholder="Mesajınız" required></textarea>
-                            </div>
-                            
-                            <button type="submit" class="submit-btn">
-                                <i class="fas fa-paper-plane" aria-hidden="true"></i> Gönder
-                            </button>
-                        </form>
+                    <div class="form-group">
+                        <i class="fas fa-user" aria-hidden="true"></i>
+                        <input type="text" class="form-control" id="name" name="name" placeholder="Adınız Soyadınız" required>
                     </div>
-                </div>
+                    
+                    <div class="form-group">
+                        <i class="fas fa-phone-alt" aria-hidden="true"></i>
+                        <input type="tel" class="form-control" id="phone" name="phone" 
+                               placeholder="Telefon (5__) ___ __ __" 
+                               pattern="[\d\s\(\)\-]{10,}" 
+                               title="10 haneli telefon numarası giriniz"
+                               required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <i class="fas fa-envelope" aria-hidden="true"></i>
+                        <input type="email" class="form-control" id="email" name="email" placeholder="E-posta Adresiniz" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <i class="fas fa-edit" aria-hidden="true"></i>
+                        <textarea class="form-control" id="message" name="message" placeholder="Mesajınız" required></textarea>
+                    </div>
+                    
+                    <button type="submit" class="submit-btn">
+                        <i class="fas fa-paper-plane" aria-hidden="true"></i> Gönder
+                    </button>
+                </form>
             </div>
-        </section>
+        </div>
+    </div>
+</section>
     </main>
 
     <!-- Footer -->
@@ -2714,7 +2707,7 @@ body.dark-mode .fa-sun {
 <script>
 /**
  * İstanbul Alev Catering - Optimize Edilmiş JavaScript (Mobil Uyumlu)
- * Tüm fonksiyonlar modern ES6+ standartlarında yazılmıştır
+ * Formspree entegrasyonu ile güncellenmiş versiyon
  */
 
 // 1. DEĞİŞKENLER VE TEMEL FONKSİYONLAR
@@ -2772,7 +2765,7 @@ const initializePage = () => {
     }, 500);
 };
 
-// 3. TEMA YÖNETİMİ (Değişiklik yapılmadı)
+// 3. TEMA YÖNETİMİ
 const initTheme = () => {
     if (!DOM_ELEMENTS.darkModeToggle) return;
     
@@ -2795,7 +2788,7 @@ const initTheme = () => {
     });
 };
 
-// 4. MOBİL MENÜ YÖNETİMİ (Güncellendi)
+// 4. MOBİL MENÜ YÖNETİMİ
 const setupMobileMenu = () => {
     if (!DOM_ELEMENTS.mobileMenuBtn || !DOM_ELEMENTS.mobileMenu) return;
     
@@ -2861,7 +2854,7 @@ const setupMobileMenu = () => {
     }, { passive: false });
 };
 
-// 5. BACK TO TOP BUTONU (Güncellendi)
+// 5. BACK TO TOP BUTONU
 const setupBackToTop = () => {
     if (!DOM_ELEMENTS.backToTopBtn) return;
     
@@ -2884,7 +2877,7 @@ const setupBackToTop = () => {
     handleScroll(); // Sayfa yüklendiğinde kontrol et
 };
 
-// 6. İLETİŞİM FORMU (Güncellendi)
+// 6. İLETİŞİM FORMU (Formspree entegrasyonlu)
 const setupContactForm = () => {
     if (!DOM_ELEMENTS.contactForm) return;
     
@@ -2908,29 +2901,104 @@ const setupContactForm = () => {
     DOM_ELEMENTS.contactForm.addEventListener('submit', async (e) => {
         e.preventDefault();
         const submitBtn = DOM_ELEMENTS.contactForm.querySelector('button[type="submit"]');
+        const formData = new FormData(DOM_ELEMENTS.contactForm);
         
         try {
             // Butonu devre dışı bırak
             submitBtn.disabled = true;
             submitBtn.innerHTML = '<i class="fas fa-spinner fa-spin"></i> Gönderiliyor...';
             
-            // Simüle edilmiş form gönderimi
-            await new Promise(resolve => setTimeout(resolve, 1000));
+            // Formspree API'sine gönderim
+            const response = await fetch('https://formspree.io/f/xpwldwbl', {
+                method: 'POST',
+                body: formData,
+                headers: {
+                    'Accept': 'application/json'
+                }
+            });
             
-            alert('Mesajınız başarıyla gönderildi! Teşekkür ederiz.');
-            DOM_ELEMENTS.contactForm.reset();
+            if (response.ok) {
+                // Başarılı gönderim
+                const successMessage = document.createElement('div');
+                successMessage.className = 'form-success';
+                successMessage.innerHTML = `
+                    <i class="fas fa-check-circle"></i>
+                    <span>Mesajınız başarıyla gönderildi! En kısa sürede sizinle iletişime geçeceğiz.</span>
+                `;
+                DOM_ELEMENTS.contactForm.reset();
+                DOM_ELEMENTS.contactForm.parentNode.insertBefore(successMessage, DOM_ELEMENTS.contactForm.nextSibling);
+                
+                // Başarı mesajını 5 saniye sonra kaldır
+                setTimeout(() => {
+                    successMessage.style.opacity = '0';
+                    setTimeout(() => successMessage.remove(), 500);
+                }, 5000);
+            } else {
+                throw new Error('Form gönderilemedi');
+            }
         } catch (error) {
             console.error('Form error:', error);
-            alert('Bir hata oluştu. Lütfen daha sonra tekrar deneyin.');
+            
+            // Hata mesajı göster
+            const errorMessage = document.createElement('div');
+            errorMessage.className = 'form-error';
+            errorMessage.innerHTML = `
+                <i class="fas fa-exclamation-circle"></i>
+                <span>Bir hata oluştu. Lütfen daha sonra tekrar deneyin veya telefonla iletişime geçin.</span>
+            `;
+            DOM_ELEMENTS.contactForm.parentNode.insertBefore(errorMessage, DOM_ELEMENTS.contactForm.nextSibling);
+            
+            // Hata mesajını 5 saniye sonra kaldır
+            setTimeout(() => {
+                errorMessage.style.opacity = '0';
+                setTimeout(() => errorMessage.remove(), 500);
+            }, 5000);
         } finally {
             // Butonu tekrar aktif hale getir
             submitBtn.disabled = false;
             submitBtn.innerHTML = '<i class="fas fa-paper-plane" aria-hidden="true"></i> Gönder';
         }
     });
+    
+    // CSS for success/error messages
+    const style = document.createElement('style');
+    style.textContent = `
+        .form-success, .form-error {
+            padding: 15px;
+            margin: 20px 0;
+            border-radius: var(--radius-md);
+            display: flex;
+            align-items: center;
+            transition: opacity 0.3s ease;
+            animation: fadeInUp 0.5s ease;
+        }
+        
+        .form-success {
+            background-color: rgba(46, 204, 113, 0.1);
+            border-left: 4px solid #2ecc71;
+            color: #27ae60;
+        }
+        
+        .form-error {
+            background-color: rgba(231, 76, 60, 0.1);
+            border-left: 4px solid #e74c3c;
+            color: #c0392b;
+        }
+        
+        .form-success i, .form-error i {
+            margin-right: 10px;
+            font-size: 20px;
+        }
+        
+        @keyframes fadeInUp {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+    `;
+    document.head.appendChild(style);
 };
 
-// 7. SAYAÇ ANİMASYONLARI (Güncellendi)
+// 7. SAYAÇ ANİMASYONLARI
 const setupCounters = () => {
     if (!DOM_ELEMENTS.counters.length) return;
     
@@ -2975,7 +3043,7 @@ const setupCounters = () => {
     DOM_ELEMENTS.counters.forEach(counter => observer.observe(counter));
 };
 
-// 8. HEADER SCROLL EFFECT (Güncellendi)
+// 8. HEADER SCROLL EFFECT
 const setupHeaderEffects = () => {
     if (!DOM_ELEMENTS.header || !DOM_ELEMENTS.heroSection) return;
     
@@ -3004,7 +3072,7 @@ const setupHeaderEffects = () => {
     handleScroll(); // Sayfa yüklendiğinde kontrol et
 };
 
-// 9. SERVİS DROPDOWN (Güncellendi)
+// 9. SERVİS DROPDOWN
 const setupServicesDropdown = () => {
     if (!DOM_ELEMENTS.servicesDropdown) return;
     
@@ -3032,7 +3100,7 @@ const setupServicesDropdown = () => {
     }, { passive: false });
 };
 
-// 10. ÇEREZ BİLDİRİMİ (Değişiklik yapılmadı)
+// 10. ÇEREZ BİLDİRİMİ
 const setupCookieConsent = () => {
     if (!DOM_ELEMENTS.cookieConsent || !DOM_ELEMENTS.acceptCookiesBtn) return;
     
